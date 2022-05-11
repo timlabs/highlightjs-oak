@@ -1,0 +1,22 @@
+<span class="hljs-keyword">begin assume</span>
+
+x <span class="hljs-built_in">or</span> <span class="hljs-built_in">not</span> x
+
+<span class="hljs-built_in">for all</span> x, p[x]
+
+<span class="hljs-keyword">suppose</span> x
+  <span class="hljs-keyword">assume</span> y
+<span class="hljs-keyword">end</span>
+
+<span class="hljs-literal">contradiction</span>
+
+<span class="hljs-string">&quot;string&quot;</span>
+
+<span class="hljs-comment"># line comment</span>
+
+<span class="hljs-comment">/#
+block comment
+<span class="hljs-comment">/# nested block comment #/</span>
+#/</span>
+
+<span class="hljs-keyword">end</span> <span class="hljs-keyword">assume</span>

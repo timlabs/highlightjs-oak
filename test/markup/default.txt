@@ -1,0 +1,22 @@
+begin assume
+
+x or not x
+
+for all x, p[x]
+
+suppose x
+  assume y
+end
+
+contradiction
+
+"string"
+
+# line comment
+
+/#
+block comment
+/# nested block comment #/
+#/
+
+end assume
