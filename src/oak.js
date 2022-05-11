@@ -1,9 +1,10 @@
-/**
- * Language: Oak
- * Contributors:
- *   Johannes Wienke <languitar@semipol.de>
- *   Gustavo Reis <gusbemacbe@gmail.com>
- */
+/*
+Language: Oak
+Website: https://oakproof.org/
+Contributors:
+  Tim Smith <timsmith3@gmail.com>
+*/
+
 module.exports = function (hljs)
 {
   const regex = hljs.regex;
