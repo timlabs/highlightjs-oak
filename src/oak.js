@@ -38,16 +38,16 @@ module.exports = function (hljs)
         {contains: ['self']}, // with nesting
       ),
       {
-        className: 'built_in',
-        begin: regex.concat(/\b/, regex.either(...BUILT_INS), /\b/)
+        scope: 'built_in',
+        match: regex.concat(/\b/, regex.either(...BUILT_INS), /\b/)
       },
       {
-        className: 'keyword',
-        begin: regex.concat(/\b/, regex.either(...KEYWORDS), /\b/)
+        scope: 'keyword',
+        match: regex.concat(/\b/, regex.either(...KEYWORDS), /\b/)
       },
       {
-        className: 'literal',
-        begin: regex.concat(/\b/, regex.either(...LITERALS), /\b/)
+        scope: 'literal',
+        match: regex.concat(/\b/, regex.either(...LITERALS), /\b/)
       },
     ],
     disableAutodetect: true
