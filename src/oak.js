@@ -49,7 +49,6 @@ module.exports = function (hljs)
         scope: 'literal',
         match: regex.concat(/\b/, regex.either(...LITERALS), /\b/)
       },
-    ],
-    disableAutodetect: true
+    ]
   }
 }
