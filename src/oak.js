@@ -14,7 +14,7 @@ module.exports = function (hljs)
     /for (all|any|at least one|at most one|each|every|no|some)/,
     /there (are|exist|exists|is)( (an|a|at least one|at most one|no|some))?/,
     /at least one/, /at most one/, /every/, /some/, /no/,
-    /is( (a|an))?/,
+    /is( not)?( (a|an))?/,
     /and/, /any/, /define/, /if/, /iff/, /implies/, /in/, /let/, /not/, /of/,
     /on/, /or/, /such that/, /then/, /where/, /with/
   ];

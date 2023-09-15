@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-oak",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A highlight.js language definition for the Oak proof checker",
   "main": "src/oak.js",
   "repository": "github:timlabs/highlightjs-oak",
