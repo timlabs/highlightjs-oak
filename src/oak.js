@@ -21,7 +21,7 @@ module.exports = function (hljs)
 
   const KEYWORDS = [
     /assume/, /axiom/, /begin assume/, /by/, /end/, /exit/, /from/, /include/,
-    /now/, /proof/, /schema/, /so/, /suppose/, /take/, /tie-in/
+    /marker/, /now/, /proof/, /schema/, /so/, /suppose/, /take/, /tie-in/
   ];
 
   const LITERALS = [
